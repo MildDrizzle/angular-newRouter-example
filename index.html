@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <base href="/">
+  <title>My App</title>
+</head>
+<body ng-app="myApp" ng-controller="AppController as app">
+
+  <a ng-link="detail({id: 5})">Link to detail</a>
+  <div ng-viewport></div>
+
+  <script src="./node_modules/angular/angular.js"></script>
+  <script src="./node_modules/angular-new-router/dist/router.es5.js"></script>
+  <script src="./components/home/home.js"></script>
+  <script src="./app.js"></script>
+</body>
+</html>
